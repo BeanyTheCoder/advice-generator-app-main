@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+body {
+  background-color: var(--dark-blue);
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  font-size: 28px;
+  width: clamp(320px, 90vw, 500px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visible-container {
+  background-color: var(--dark-grayish-blue);
+  width: 100%;
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5em;
+  flex-direction: column;
+  box-shadow: 0 10px 20px 10px var(--dark-blue);
+}
+
+.visible-container__advice-id {
+  color: var(--neon-green);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.4em;
+  margin-bottom: 2em;
+}
+
+.visible-container__advice-text {
+  color: var(--light-cyan);
+  text-align: center;
+  margin-bottom: 0.75em;
+}
+
+.visible-container__divider {
+  margin-bottom: 0.5em;
+}
+
+.container__button {
+  background-color: var(--neon-green);
+  border: none;
+  width: 60px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  outline: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: -30px;
+
+  cursor: pointer;
+}
+
+.container__button:hover,
+.container__button:focus {
+  animation: rotateAnim 0.5s ease;
+}
+
+.container__button::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0 0 30px 0px var(--neon-green);
+  transform: scale(0);
+  transition: 0.2s ease;
+}
+
+.container__button:hover::before,
+.container__button:focus::before {
+  transform: scale(1);
+}
+
+@keyframes rotateAnim {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 180deg;
+  }
+}
+
+.container__button img {
+  width: 22px;
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    font-size: 23px;
+  }
+
+  .visible-container {
+    padding: 1.5em 0.75em;
+  }
+
+  .visible-container__divider img {
+    content: url(./images/pattern-divider-mobile.svg);
+  }
+}
