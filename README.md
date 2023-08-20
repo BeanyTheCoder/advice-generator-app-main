@@ -43,7 +43,8 @@ _My solution (Mobile)_
 
 ### Links 🔗
 
-- Solution repo on github [here]()
+- Solution repo on github [here](https://github.com/BeanyTheCoder/advice-generator-app-main)
+- Solution link on FEM [here]()
 
 ## My process 🏗️
 
