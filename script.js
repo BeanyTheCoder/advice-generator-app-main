@@ -10,7 +10,7 @@ function getAdvice() {
     .then((data) => {
       const adviceData = data.slip;
       console.log(adviceData)
-      adviceText.textContent = adviceData.advice
+      adviceText.textContent = `"${adviceData.advice}"`
       adviceId.textContent = adviceData.id
     })
     .catch((error) => {
