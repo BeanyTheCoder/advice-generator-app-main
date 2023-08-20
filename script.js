@@ -9,6 +9,7 @@ function getAdvice() {
     })
     .then((data) => {
       const adviceData = data.slip;
+      console.log(adviceData)
       adviceText.textContent = adviceData.advice
       adviceId.textContent = adviceData.id
     })
@@ -17,9 +18,6 @@ function getAdvice() {
     });
 }
 
-window.onload = () => {
-  getAdvice()
-}
+getAdvice()
 
 adviceButton.addEventListener('click', getAdvice)
-

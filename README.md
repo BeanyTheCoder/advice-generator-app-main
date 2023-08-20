@@ -27,9 +27,9 @@ This is a solution to the [Advice generator challenge on Frontend Mentor](link).
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Generate a new piece of advice by clicking the dice icon
+- ✅ View the optimal layout for the app depending on their device's screen size
+- ✅ See hover states for all interactive elements on the page
+- ✅ Generate a new piece of advice by clicking the dice icon
 
 ### Screenshots 📷
 
@@ -59,7 +59,7 @@ _My solution (Mobile)_
 So i learned a bit of API best practices, just some stuff about API's in general.
 (_This is my first API project actually_)
 
-#### Some simple fetch API code(which I used in this challenge)
+#### Some simple Fetch API code(which I used in this challenge)
 
 ```js
 fetch(url)
@@ -95,11 +95,11 @@ I might or I might not...
 
 ### Useful resources 📚
 
-- Big thanks to [Example resource 1](https://www.example.com) - This helped me integrate with the Advice Slip API.
+- Big thanks to [this youtube video](https://www.youtube.com/watch?v=2AfzKmgqWUE) - This helped me integrate with the Advice Slip API.
 
 ## Acknowledgments 🙏
 
-As I said above, I owe a big thanks to [Example resource 1](https://www.example.com), as their video helped with the Advice API usage
+As I said above, I owe a big thanks to [this youtube video](https://www.youtube.com/watch?v=2AfzKmgqWUE), as it helped with the Advice API usage
 
 ## Contact 📧
 
