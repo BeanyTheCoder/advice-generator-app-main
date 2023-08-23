@@ -98,7 +98,7 @@ I suppose i could add a loading circle for when a quote is being fetched from th
 
 ## Acknowledgments 🙏
 
-- Big thanks to [this youtube video](https://www.youtube.com/watch?v=2AfzKmgqWUE), as it helped with the Advice API usage
+- Big thanks to [this youtube video](https://www.youtube.com/watch?v=2AfzKmgqWUE), as it helped with the Advice API usage.
 
 ## Contact 📧
 
