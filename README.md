@@ -1,25 +1,25 @@
-# Frontend Mentor - Advice generator app
+# Frontend Mentor - Advice generator app 🧠
 
 ![preview](./design/desktop-preview.jpg)
 
 ## Welcome 👋
 
-This is a solution to the [Advice generator challenge on Frontend Mentor](link). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Advice generator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents 📑
 
-- [Overview](#overview-🌟)
-  - [The Challenge](#the-challenge-🧪)
-  - [Screenshots](#screenshots-📷)
-  - [Links](#links-🔗)
-- [My process](#my-process-🏗️)
-  - [Built with](#built-with-🛠️)
-  - [What I learned](#what-i-learned-🧠)
-  - [Continued development](#continued-development-🚀)
-  - [Useful resources](#useful-resources-📚)
-- [Acknowledgments](#acknowledgments-🙏)
-- [Contact](#contact-📧)
-- [Author](#author-👤)
+- [Overview 🌟](#overview-🌟)
+  - [The Challenge 🧪](#the-challenge-🧪)
+  - [Screenshots 📷](#screenshots-📷)
+  - [Links 🔗](#links-🔗)
+- [My process 🏗️](#my-process-🏗️)
+  - [Built with 🛠️](#built-with-🛠️)
+  - [What I learned 🧠](#what-i-learned-🧠)
+  - [Continued development 🚀](#continued-development-🚀)
+  - [Useful resources 📚](#useful-resources-📚)
+- [Acknowledgments 🙏](#acknowledgments-🙏)
+- [Contact 📧](#contact-📧)
+- [Author 👤](#author-👤)
 
 ## Overview 🌟
 
@@ -35,16 +35,16 @@ Users should be able to:
 
 _My solution (Desktop):_
 
-![image of desktop solution](image.png)
+![image of desktop solution](./readme-images/desktop.png)
 
 _My solution (Mobile)_
 
-![image of mobile solution](image-1.png)
+![image of mobile solution](./readme-images/mobile.png)
 
 ### Links 🔗
 
 - Solution repo on github [here](https://github.com/BeanyTheCoder/advice-generator-app-main)
-- Solution link on FEM [here]()
+- Solution link on Front End Mentor [here](https://www.frontendmentor.io/solutions/advice-generator-app-html-css-advice-slip-api-iZwaF2ENc5)
 
 ## My process 🏗️
 
@@ -90,17 +90,15 @@ fetch("https://api.adviceslip.com/advice")
 
 ### Continued development 🚀
 
-I suppose i could add a loading circle for when a quote is being fetched from the server, but that is not yet decided-
-
-I might or I might not...
+I suppose i could add a loading circle for when a quote is being fetched from the server, _but that is not yet decided._
 
 ### Useful resources 📚
 
-- Big thanks to [this youtube video](https://www.youtube.com/watch?v=2AfzKmgqWUE) - This helped me integrate with the Advice Slip API.
+- [Advice Slip API](https://api.adviceslip.com/) - This generates the advice slips used in this challenge.
 
 ## Acknowledgments 🙏
 
-As I said above, I owe a big thanks to [this youtube video](https://www.youtube.com/watch?v=2AfzKmgqWUE), as it helped with the Advice API usage
+- Big thanks to [this youtube video](https://www.youtube.com/watch?v=2AfzKmgqWUE), as it helped with the Advice API usage
 
 ## Contact 📧
 
