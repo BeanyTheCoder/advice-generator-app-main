@@ -43,8 +43,8 @@ _My solution (Mobile)_
 
 ### Links 🔗
 
-- Solution repo on github [here](https://github.com/BeanyTheCoder/advice-generator-app-main)
-- Solution link on Front End Mentor [here](https://www.frontendmentor.io/solutions/advice-generator-app-html-css-advice-slip-api-iZwaF2ENc5)
+- Solution repo on Github: [here](https://github.com/BeanyTheCoder/advice-generator-app-main)
+- Solution link on Front End Mentor: [here](https://www.frontendmentor.io/solutions/advice-generator-app-html-css-advice-slip-api-iZwaF2ENc5)
 
 ## My process 🏗️
 
