@@ -21,9 +21,8 @@ body {
 }
 
 .container {
-  /* tweaking font size for more accurate design */
-  font-size: 30px;
-  width: clamp(320px, 90vw, 500px);
+  font-size: 28px;
+  width: clamp(320px, 90vw, 530px);
   display: flex;
   justify-content: center;
   flex-direction: column;
