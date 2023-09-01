@@ -45,10 +45,11 @@ _My solution (Mobile)_
 
 - Solution repo on Github: [here](https://github.com/BeanyTheCoder/advice-generator-app-main)
 - Solution link on Front End Mentor: [here](https://www.frontendmentor.io/solutions/advice-generator-app-html-css-advice-slip-api-iZwaF2ENc5)
+- Live site link: [here](https://beanythecoder.github.io/advice-generator-app-main/)
 
 ## My process 🏗️
 
-### Built with 🛠️
+### Built with 🛠️is 
 
 - HTML & CSS
 - JavaScript
