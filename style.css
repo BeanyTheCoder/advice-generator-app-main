@@ -83,7 +83,8 @@ body {
 }
 
 .container__button:hover,
-.container__button:focus {
+.container__button:focus,
+.container__button:active {
   animation: rotateAnim 0.5s ease;
 }
 
